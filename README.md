@@ -1,4 +1,6 @@
 RoomEntity
 ==========
 
-RoomEntity Extension CiviCRM
+CiviCRM Extension under development
+Madura K
+
