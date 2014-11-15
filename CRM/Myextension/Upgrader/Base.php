@@ -237,7 +237,7 @@ class CRM_Myextension_Upgrader_Base {
 
   // ******** Hook delegates ********
 
-  public function onInstall() {
+  public function onInstall() {   
     $files = glob($this->extensionDir . '/sql/*_install.sql');
     if (is_array($files)) {
       foreach ($files as $file) {
@@ -259,7 +259,7 @@ class CRM_Myextension_Upgrader_Base {
     }
   }
 
-  public function onUninstall() {
+  public function onUninstall() {    
     if (is_callable(array($this, 'uninstall'))) {
       $this->uninstall();
     }

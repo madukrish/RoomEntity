@@ -106,3 +106,4 @@ function myextension_civicrm_caseTypes(&$caseTypes) {
 function myextension_civicrm_alterSettingsFolders(&$metaDataFolders = NULL) {
   _myextension_civix_civicrm_alterSettingsFolders($metaDataFolders);
 }
+
